@@ -1,6 +1,10 @@
-# Milestones - Week 5
+# Milestones - JavaScript
 
-Below is a list of tasks. By the start of next week (Monday, February 17), everyone should...
+Below is a list of tasks. If you "know" JavaScript, this should take ~60 minutes to complete. Treat it like a diagnostic; if it's taking longer that means there's something you don't quite understand yet. That's good! Now you know what to focus on!
+
+Many of these are taken from the [JavaScript Fundamentals](https://github.com/jfarmer/exercises-javascript-fundamentals), so revisit that and the [JavaScript Crash Course](https://github.com/jfarmer/intro-javascript) if you need.
+
+For each task....
 
 1. Understand what the task is asking
 1. Be able to do the task
