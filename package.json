@@ -1,0 +1,35 @@
+{
+  "name": "milestones-js",
+  "version": "1.0.0",
+  "description": "JavaScript Milestones",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jsdoc": "^3.6.6"
+  },
+  "scripts": {
+    "docs": "npx jsdoc -c ./.jsdoc.conf.json",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfarmer/milestones-js.git"
+  },
+  "keywords": [
+    "javascript",
+    "exercises"
+  ],
+  "author": "Jesse Farmer <jesse@20bits.com>",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/jfarmer/milestones-js/issues"
+  },
+  "homepage": "https://github.com/jfarmer/milestones-js#readme"
+}
