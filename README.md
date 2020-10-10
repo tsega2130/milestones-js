@@ -14,6 +14,7 @@ For each task....
 
 ## Contents <!-- omit in toc -->
 
+- [Getting Started](#getting-started)
 - [Instructions](#instructions)
   - [Demonstrations](#demonstrations)
 - [Tasks - Development Environment](#tasks---development-environment)
@@ -37,6 +38,13 @@ For each task....
   - [Functions](#functions)
   - [File I/O](#file-io)
 - [Understanding Code Like A Computer](#understanding-code-like-a-computer)
+
+## Getting Started
+
+1. Fork and clone this repository
+1. Run `npm install` to install any required packages
+1. Read the [Instructions](#instructions) section
+1. No, really, read all the [instructions](#instructions), especially the section about [what makes for good demonstrations](#demonstrations)
 
 ## Instructions
 
