@@ -16,7 +16,7 @@ For each task....
 
 - [Getting Started](#getting-started)
 - [Instructions](#instructions)
-  - [Demonstrations](#demonstrations)
+- [Demonstrations, Helpful vs. Unhelpful](#demonstrations-helpful-vs-unhelpful)
 - [Tasks - Development Environment](#tasks---development-environment)
   - [Command Line](#command-line)
   - [Editing And Running Code](#editing-and-running-code)
@@ -44,27 +44,51 @@ For each task....
 1. Fork and clone this repository
 1. Run `npm install` to install any required packages
 1. Read the [Instructions](#instructions) section
-1. No, really, read all the [instructions](#instructions), especially the section about [what makes for good demonstrations](#demonstrations)
+1. No, really, read all the [instructions](#instructions), especially the section about [what makes for good demonstrations](#demonstrations-helpful-vs-unhelpful)
 
 ## Instructions
 
-The snippets you write for each group of tasks can go in as many files as you'd like, but avoid putting everything in one giant file. It will make it hard for you to figure out what's going on.
+You're going to be asked to write a bunch of code snippets that demonstrate your understanding of specific concepts.
 
-There's no particular format or requirement. This isn't an assignment. It's a study guide. You need to make it work for you. If you're spending time thinking about how ***I*** want it formatted then you're missing the point!
+- **Aim For Understanding**
 
-We'll be sharing everyone's snippet after this is over, so write with that audience in mind. Be nice to your classmates. See the [Demonstrations](#demonstrations) section below for what helpful demonstrations look like.
+    The tasks are all phrased in the most simple, direct way possible. There are no tricks or gotchas. If you're unsure what the task is asking then there's something about the related concept that's confusing you.
 
-You're free to use any built-in JavaScript function unless otherwise stated. For example, if you're asked to write a function that works like `Math.max`, don't use `Math.max`!
+    That's good! Now you have something to focus on.
 
-When you find a task you're not sure how to do, search for documentation, tutorials, guides, or anything else that might help you.
+    Avoid the temptation to search for a "solution" and paste it in without understanding. Doing this makes it much, *much* harder for other people to give good feedback.
 
-If you copy code from somewhere else, include the URL in a comment.
+    You know in your heart of hearts whether you understand whatever "solution" you find.
 
-### Demonstrations
+- **Other People Will Read Your Snippets**
+
+    We'll be sharing everyone's snippets/demonstrations after this is over, so write with that audience in mind. Be nice to your classmates. See the [Demonstrations Section](#demonstrations-helpful-vs-unhelpful) below for what helpful demonstrations look like.
+
+- **Avoid One Giant File**
+
+    The snippets you write for each group of tasks can go in as many files as you'd like, but avoid putting everything in one giant file. It will make it hard for anyone reading the code to figure out what's going on.
+
+- **Help Others Follow Your Path**
+
+    When you find a task you're not sure how to do, search for documentation, tutorials, guides, or anything else that might help you. Include comments that point readers to those resources.
+
+    If you copy code from somewhere else, include the URL in a comment.
+
+- **The Format Is Whatever Makes For A Good Demonstration**
+
+    The snippets you write should serve as a good demonstration for a particular concept. Imagine yourself coming back a month from now — would you be able to run the snippet and get a sense of what was being demonstrated? What about when you read the code?
+
+    There's no particular format or requirement. This isn't an assignment. It's a study guide that you're creating for yourself and your classmates. You need to make it work for you. If you're spending time thinking about how ***we*** want it formatted then you're missing the point!
+
+- **You Can Use Built-In Functions**
+
+    You're free to use any built-in JavaScript function unless otherwise stated. For example, if you're asked to write a function that works like `Math.max`, don't use `Math.max`!
+
+## Demonstrations, Helpful vs. Unhelpful
 
 One of the tasks below is to use the `+` operator on two variables containing numbers and explain what that represents. Imagine you were writing something that served as a miniature tutorial for your other classmates. Both running the code and reading the code should reinforce how to use `+` and what it represents.
 
-#### Helpful Demonstration <!-- omit in toc -->
+### Helpful Demonstration <!-- omit in toc -->
 
 When writing your demonstration, remember that people will be interacting with it in two ways:
 
@@ -88,7 +112,7 @@ Here's the output from the **helpful demonstration**
 
 ![Helpful demonstration](screenshots/add-helpful.png)
 
-#### Unhelpful Demonstration <!-- omit in toc -->
+### Unhelpful Demonstration <!-- omit in toc -->
 
 This demonstration is much less helpful:
 
@@ -356,6 +380,8 @@ Below are three functions whose names have nothing to do with the work they perf
 
 Definitely read the code and try to make sense of it that way, but also copy the poorly-named code into an environment where you can experiment with it. Call the functions with different inputs to figure out what it's doing.
 
+### papaya <!-- omit in toc -->
+
 ```javascript
 function papaya(meow) {
   let x = meow[0];
@@ -374,6 +400,8 @@ function papaya(meow) {
 console.log(papaya([10, -10, 40, 50, 108, 17]))
 ```
 
+### clowntown <!-- omit in toc -->
+
 ```javascript
 function clowntown(octopus) {
   if (octopus < 0) {
@@ -388,6 +416,8 @@ console.log('clowntown(-20) is:', clowntown(-20));
 console.log('clowntown(0) is:', clowntown(0));
 console.log('clowntown(-108) is:', clowntown(-108));
 ```
+
+### chowhound <!-- omit in toc -->
 
 ```javascript
 function chowhound(llama) {
