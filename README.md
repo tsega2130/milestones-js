@@ -76,6 +76,10 @@ console.log('The sum of num1 and num2 is:', num1 + num2);
 
 Someone who ran this code first would see a bunch of output. Once they opened the code, they'd be able to see which line of code produced the output they just saw. They'd be able to play with the values and see the output change in a useful way.
 
+Here's the output from the **helpful demonstration**
+
+![Helpful demonstration](screenshots/add-helpful.png)
+
 #### Unhelpful Demonstration <!-- omit in toc -->
 
 This demonstration is much less helpful:
@@ -90,6 +94,10 @@ console.log(num1 + num2);
 ```
 
 While this code uses `+`, the output will be nothing but a column of numbers. What do those numbers mean? How do we know which line of output corresponds to which line of code? How can someone unfamiliar with `+` make predictions about how the output would change if they changed the values of `num1` and `num2`?
+
+Here's the output from the **unhelpful demonstration**:
+
+![Unhelpful demonstration](screenshots/add-unhelpful.png)
 
 ## Tasks - Development Environment
 
