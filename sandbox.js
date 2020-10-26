@@ -2,7 +2,7 @@ let abilityToGoAbroadNextSemester= "iffy"
 
 
 
-if (abilityToGoAbroadNextSemester==="true"){
+if (abilityToGoAbroadNextSemester==="Ofc"){
     console.log("Whoop Whoop")
 } else {
     console.log(":/")

@@ -70,3 +70,6 @@ console.log(`The value of blah is now: ${blah}`);
 k=200; 
 blah -= k;
 console.log(`The value of blah is now: ${blah}`);
+
+//Incrementing/Decrementing with += and -= assignement operators respectively 
+//which add/subtract from the current value of blah with a condensed syntax S 
